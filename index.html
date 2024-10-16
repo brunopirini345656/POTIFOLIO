@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>𝖕𝖔𝖗𝖙𝖋𝖔𝖑𝖎𝖔 - João Silva</title>
+    <style>
+        /* Estilos para o corpo da página com troca de cores automática */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(45deg, #ff4e50, #f9d423, #24c6dc, #abecd6);
+            background-size: 400% 400%;
+            animation: trocaCores 15s ease infinite; /* Animação da troca de cores */
+            color: #333;
+        }
+
+        /* Definição da animação de troca de cores */
+        @keyframes trocaCores {
+            0% {
+                background-position: 0% 50%;
+            }
+            50% {
+                background-position: 100% 50%;
+            }
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Estilos para o cabeçalho */
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Estilos gerais para as seções */
+        section {
+            margin: 20px auto;
+            max-width: 1000px;
+        }
+
+        /* Estilos para a seção do perfil */
+        .profile {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        /* Estilos para títulos */
+        h1, h2 {
+            color: #fff; /* Títulos em branco para contraste com o fundo */
+            font-family: 'Lucida Console', Courier, monospace; /* Usando uma fonte mais próxima do estilo */
+        }
+
+        /* Estilos para o grid de projetos */
+        .projects {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+        }
+
+        /* Estilos para cada projeto individual */
+        .project {
+            background-color: rgba(255, 255, 255, 0.9); /* Fundo com leve transparência */
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .project h3 {
+            margin-top: 0;
+            font-family: 'Lucida Console', Courier, monospace;
+        }
+
+        .project a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Estilos para o rodapé */
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            margin-top: 40px;
+        }
+
+        .contact-info {
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>𝕻𝖔𝖗𝖙𝖋𝖔𝖑𝖎𝖔 𝖉𝖊 João Silva</h1>
+    <p>Desenvolvedor Web e Designer</p>
+</header>
+
+<section class="profile">
+    <h2>𝕾𝖔𝖇𝖗𝖊 𝕸𝖎𝖒</h2>
+    <p>Sou um desenvolvedor web especializado em criar sites e aplicativos responsivos e visualmente atraentes. Trabalho com diversas tecnologias como HTML, CSS, JavaScript e React.</p>
+</section>
+
+<section>
+    <h2>𝕻𝖗𝖔𝖏𝖊𝖙𝖔𝖘</h2>
+    <div class="projects">
+
+        <div class="project">
+            <h3>𝕻𝖗𝖔𝖏𝖊𝖙𝖔 1: TechShop</h3>
+            <p>Desenvolvi uma plataforma de e-commerce responsiva para a loja de tecnologia online TechShop, com integração de sistema de pagamento e filtros avançados.</p>
+            <a href="https://www.techshop.com" target="_blank">Visite o Projeto</a>
+        </div>
+
+        <div class="project">
+            <h3>𝕻𝖗𝖔𝖏𝖊𝖙𝖔 2: TaskMaster</h3>
+            <p>Um aplicativo de tarefas simples e eficaz que permite aos usuários gerenciar suas atividades diárias e sincronizar com o Google Calendar.</p>
+            <a href="https://www.taskmasterapp.com" target="_blank">Visite o Projeto</a>
+        </div>
+
+        <div class="project">
+            <h3>𝕻𝖗𝖔𝖏𝖊𝖙𝖔 3: GreenEnergy</h3>
+            <p>Website institucional para a GreenEnergy, uma empresa de energia solar. O site é otimizado para SEO e tem design responsivo para dispositivos móveis.</p>
+            <a href="https://www.greenenergy.com.br" target="_blank">Visite o Projeto</a>
+        </div>
+
+    </div>
+</section>
+
+<footer>
+    <div class="contact-info">
+        <p>Contato: joao.silva@email.com | (11) 98765-4321</p>
+    </div>
+    <p>&copy; 2024 João Silva</p>
+</footer>
+
+</body>
+</html>
